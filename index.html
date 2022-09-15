@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
+    <link rel="icon" href="/img/logo jp2.png" type="image" sizes="32x32" />
+    <link rel="stylesheet" href="style.css" />
+    <title><JP> Desarrollador Web Full Stack</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <section id="inicio">
+      <div class="contenido">
+        <header>
+          <div class="contenido-header">
+            <a href="index.html" class="enlace">
+              <img src="/img/logo jp2.png" alt="" class="logo" />
+            </a>
+            <nav id="nav" class="">
+              <ul id="links">
+                <li>
+                  <a
+                    href="#inicio"
+                    class="seleccionado"
+                    onclick="seleccionar(this)"
+                    >INICIO</a
+                  >
+                </li>
+                <li>
+                  <a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a>
+                </li>
+                <li>
+                  <a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a>
+                </li>
+                <li>
+                  <a href="#portafolio" onclick="seleccionar(this)"
+                    >PORTAFOLIO</a
+                  >
+                </li>
+                <li>
+                  <a href="#contacto" onclick="seleccionar(this)">CONTACTO</a>
+                </li>
+              </ul>
+            </nav>
+            <!--Iconos del menu responsive-->
+            <div id="icono-nav" onclick="responsiveMenu()">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+            <!--Iconos para mis redes sociales-->
+            <div class="redes">
+              <a href="https://www.facebook.com/jhoalvi.pereira/"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://www.instagram.com/pereirajhoalvi/"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/jhoalvi-pereira-477468242/"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+          </div>
+        </header>
+        <div class="presentacion">
+          <p class="bienvenida">Bienvenidos</p>
+          <h2>
+            Soy <span>Jhoalvi Pereira</span>, Desarrollador Web Full Stack
+          </h2>
+          <p class="descripcion">
+            Esta es mi página donde podrás ver mí información, habilidades y
+            proyectos en los que he trabajado.
+          </p>
+          <a href="#portafolio">Ir a portafolio</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobremi">
+      <div class="contenedor-foto">
+        <img src="/img/foto port.jpg" alt="" />
+      </div>
+      <div class="sobremi">
+        <p class="titulo-seccion">Sobre mi</p>
+        <h2>Hola, soy <span>Jhoalvi Pereira</span></h2>
+        <h3>Desarrollador Web Full Stack</h3>
+        <p>
+          Soy un Desarrollador Web Full Stack, tengo gran capacidad para la
+          resolución de problemas y experiencia comprobable en creación y diseño
+          de aplicaciones web, excelente compañero de equipo, organizado y
+          responsable. Disfruto mucho aprender cosas nuevas, por lo que mi
+          objetivo es un puesto desafiante y dinámico donde poder compartir mi
+          experiencia y a su vez sumar nuevos conocimientos.
+        </p>
+        <a download="JHOALVI_PEREIRA_CV" href="/img/Mi CV.pdf">Descargar CV</a>
+      </div>
+    </section>
+
+    <section id="servicios">
+      <h3 class="titulo-seccion">MIS SERVICIOS</h3>
+      <div class="fila">
+        <div class="servicio">
+          <span class="icono"><i class="fa-solid fa-globe"></i></span>
+          <h4>Desarrollador Web</h4>
+          <hr />
+          <p>
+            Como Desarrollador Web me encargo de crear sitios web a través de
+            código complejo y lograr que los usuarios de un sitio puedan llevar
+            a cabo acciones en él.
+          </p>
+        </div>
+        <div class="servicio">
+          <span class="icono"><i class="fa-solid fa-code"></i></span>
+          <h4>Programador JavaScript</h4>
+          <hr />
+          <p>
+            Tengo un buen manejo de este lenguaje de programación, resolución de
+            problemas y análisis de este.
+          </p>
+        </div>
+        <div class="servicio">
+          <span class="icono"><i class="fa-solid fa-palette"></i></span>
+          <h4>Desarrollador Front End</h4>
+          <hr />
+          <p>
+            En el rol de Front End, me encargo de toda la parte visible de una
+            app o una web y de la optimización de la experiencia del usuario,
+            asegurándome que este tenga una buena experiencia.
+          </p>
+        </div>
+        <div class="servicio">
+          <span class="icono"><i class="fa-solid fa-plug"></i></span>
+          <h4>Desarrollador Back End</h4>
+          <hr />
+          <p>
+            En el rol de Back End, me encargo de diseñar la lógica y las
+            soluciones para que las acciones solicitadas en un sitio o
+            aplicación web sean ejecutadas correctamente.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="contenedor-skills" id="skills">
+      <h3>HABILIDADES</h3>
+      <div class="skill">
+        <div class="info">
+          <p><span class="lista"></span>HTML & CSS</p>
+          <span class="porcentaje">90%</span>
+        </div>
+        <div class="barra">
+          <div id="html" class="barra-progreso1"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="info">
+          <p><span class="lista"></span>JavaScript</p>
+          <span class="porcentaje">80%</span>
+        </div>
+        <div class="barra">
+          <div id="js" class="barra-progreso2"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="info">
+          <p><span class="lista"></span>React</p>
+          <span class="porcentaje">90%</span>
+        </div>
+        <div class="barra">
+          <div id="react" class="barra-progreso3"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="info">
+          <p><span class="lista"></span>Vue js</p>
+          <span class="porcentaje">60%</span>
+        </div>
+        <div class="barra">
+          <div id="vue" class="barra-progreso4"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="info">
+          <p><span class="lista"></span>Node js</p>
+          <span class="porcentaje">85%</span>
+        </div>
+        <div class="barra">
+          <div id="node" class="barra-progreso5"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="info">
+          <p><span class="lista"></span>Express</p>
+          <span class="porcentaje">90%</span>
+        </div>
+        <div class="barra">
+          <div id="express" class="barra-progreso6"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="info">
+          <p><span class="lista"></span>PostgreSQL</p>
+          <span class="porcentaje">90%</span>
+        </div>
+        <div class="barra">
+          <div id="sql" class="barra-progreso7"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="info">
+          <p><span class="lista"></span>Wordpress</p>
+          <span class="porcentaje">70%</span>
+        </div>
+        <div class="barra">
+          <div id="word" class="barra-progreso8"></div>
+        </div>
+      </div>
+    </div>
+
+    <section id="portafolio">
+      <h3 class="titulo-seccion">MIS PROYECTOS</h3>
+      <div class="fila">
+        <div class="proyecto">
+          <div class="overlay"></div>
+          <a
+            href="https://jhoalvi25.github.io/Conitrox/Inicio/index.html"
+            target="_blank"
+            ><img src="/img/conitrox.png" alt=""
+          /></a>
+          <div class="info">
+            <h4>Pagina web responsive</h4>
+            <p>Pagina Web de arte, adaptable a dispositivos moviles</p>
+          </div>
+        </div>
+
+        <div class="proyecto">
+          <div class="overlay"></div>
+          <img src="/img/pokemon app.png" alt="" />
+          <div class="info">
+            <h4>Pokemon App con React</h4>
+            <p>Aplicación de escritorio no responsive</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto">
+      <h3 class="titulo-seccion">CONTACTAME AHORA</h3>
+      <div class="contenedor-form">
+        <form
+          action="https://formsubmit.co/b498b55de6f5c05c71e0a92a70b76a57 "
+          method="POST"
+        >
+          <div class="fila mitad">
+            <input
+              type="text"
+              placeholder="Nombre completo"
+              class="input-mitad"
+              name="nombre"
+            />
+            <input
+              type="text"
+              placeholder="Correo electronico"
+              class="input-mitad"
+              name="email"
+            />
+          </div>
+          <div class="fila">
+            <input type="text" placeholder="Asunto" class="input-full" name="asunto" />
+          </div>
+          <div class="fila">
+            <textarea
+              name="mensaje"
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Tu mensaje"
+              class="input-full"
+            ></textarea>
+          </div>
+          <input type="submit" value="Enviar mensaje" class="btn-enviar" />
+        </form>
+      </div> 
+    </section>
+
+    <footer>
+      <p>
+        Copyright &copy; 2022 <b>Jhoalvi Pereira</b> - Todos los derechos
+        reservados.
+      </p>
+      <div class="redes">
+        <a href="https://www.facebook.com/jhoalvi.pereira/"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/pereirajhoalvi/"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/jhoalvi-pereira-477468242/"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+    </footer>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
