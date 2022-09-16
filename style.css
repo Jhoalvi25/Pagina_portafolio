@@ -279,7 +279,7 @@ html {
 
 .contenedor-skills {
   background: linear-gradient(#0d9af9, rgba(33, 16, 16, 0.8)),
-    url("/img/52921-programacion.jpg");
+    url("img/52921-programacion.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
