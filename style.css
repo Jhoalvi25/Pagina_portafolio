@@ -19,7 +19,10 @@ video {
   min-height: 100%;
   transform: translateX(calc((100% - 100vw) / 2));
   z-index: -2;
-  
+}
+
+.bienvenida{
+  margin-top: 90px;
 }
 
 /* #inicio {
@@ -155,7 +158,7 @@ video {
   padding: 100px 15px;
   color: #111135;
   display: flex;
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
 }
 
 #sobremi .contenedor-foto {
@@ -495,7 +498,7 @@ video {
   width: 100%;
   padding: 100px 0;
   margin: auto;
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
 }
 
 #portafolio .titulo-seccion {
@@ -555,7 +558,7 @@ video {
 
 #contacto {
   padding: 100px 15px;
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
 }
 
 #contacto .titulo-seccion {
@@ -634,9 +637,6 @@ footer a {
 /* responsive */
 
 @media screen and (max-width: 950px) {
-
-  
-
   .redes {
     display: none;
   }
@@ -665,9 +665,13 @@ footer a {
   #inicio .contenido .presentacion h2 {
     font-size: 40px;
   }
+  .presentacion {
+    overflow: hidden;
+  }
 
-
-
+  .bienvenida {
+    margin-top: 110px;
+  }
 
   #sobremi {
     padding: 50px 0;
