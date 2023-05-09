@@ -161,6 +161,7 @@ video {
 #sobremi .contenedor-foto {
   max-width: 400px;
   margin-right: 80px;
+  margin-left: 20px;
 }
 
 #sobremi .contenedor-foto img {
@@ -632,7 +633,10 @@ footer a {
 
 /* responsive */
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 950px) {
+
+  
+
   .redes {
     display: none;
   }
